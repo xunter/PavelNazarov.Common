@@ -15,6 +15,7 @@ namespace PavelNazarov.Common.Images
             {
                 case "png": return ImageFormat.Png;
                 case "gif": return ImageFormat.Gif;
+                case "jpg": 
                 case "jpeg": return ImageFormat.Jpeg;
                 case "bmp": return ImageFormat.Bmp;
                 default: throw new ArgumentOutOfRangeException("ext");
