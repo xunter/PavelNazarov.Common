@@ -5,3 +5,10 @@ C:\Users\xunter\Dev\dev_projects\dotnet\PavelNazarov.Common\PavelNazarov.Common.
 C:\Users\xunter\Dev\dev_projects\dotnet\PavelNazarov.Common\PavelNazarov.Common.Web\obj\Release\ResolveAssemblyReference.cache
 C:\Users\xunter\Dev\dev_projects\dotnet\PavelNazarov.Common\PavelNazarov.Common.Web\obj\Release\PavelNazarov.Common.Web.dll
 C:\Users\xunter\Dev\dev_projects\dotnet\PavelNazarov.Common\PavelNazarov.Common.Web\obj\Release\PavelNazarov.Common.Web.pdb
+C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Web\bin\Release\PavelNazarov.Common.Web.dll
+C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Web\bin\Release\PavelNazarov.Common.Web.pdb
+C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Web\bin\Release\PavelNazarov.Common.dll
+C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Web\bin\Release\PavelNazarov.Common.pdb
+C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Web\obj\Release\ResolveAssemblyReference.cache
+C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Web\obj\Release\PavelNazarov.Common.Web.dll
+C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Web\obj\Release\PavelNazarov.Common.Web.pdb

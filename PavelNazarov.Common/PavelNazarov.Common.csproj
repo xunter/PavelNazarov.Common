@@ -41,8 +41,13 @@
   <ItemGroup>
     <Compile Include="BytesUtil.cs" />
     <Compile Include="Collections\DisposableDictionary.cs" />
+    <Compile Include="Configuration\ExternalXmlFileConfigSectionLocator.cs" />
     <Compile Include="Drawing\ImageUtil.cs" />
     <Compile Include="Drawing\ThumbnailImage.cs" />
+    <Compile Include="IO\PersistentStorage\IPersistentStorage.cs" />
+    <Compile Include="IO\PersistentStorage\PersistentStorageException.cs" />
+    <Compile Include="IO\PersistentStorage\PersistentStorageManager.cs" />
+    <Compile Include="IO\PersistentStorage\XmlFileBasedPersistentStorage.cs" />
     <Compile Include="Logging\ILoggerService.cs" />
     <Compile Include="Pair.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -52,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.XML" />
     <Reference Include="System.Xml.Linq" />
