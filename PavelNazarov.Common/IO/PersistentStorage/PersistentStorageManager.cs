@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using PavelNazarov.Common.IO.PersistentStorage;
 
-namespace ForsBS.Terminal.UIWebApp.Code.Infrastructure
+namespace PavelNazarov.Common.IO.PersistentStorage
 {
     public class PersistentStorageManager
     {
