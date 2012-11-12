@@ -48,6 +48,7 @@
     <Compile Include="IO\PersistentStorage\PersistentStorageException.cs" />
     <Compile Include="IO\PersistentStorage\PersistentStorageManager.cs" />
     <Compile Include="IO\PersistentStorage\XmlFileBasedPersistentStorage.cs" />
+    <Compile Include="IO\StreamWrapperToManageDisposeOutside.cs" />
     <Compile Include="Logging\ILoggerService.cs" />
     <Compile Include="Pair.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

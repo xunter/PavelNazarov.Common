@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ad23b516-31f0-4fa9-b329-66daa0af63a5" name="xunter@PAVELNAZAROV-PC 2012-11-12 14:29:19" runUser="PAVELNAZAROV-PC\xunter" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3cdf4930-95c0-4096-9941-1fc28edd4ddb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="xunter_PAVELNAZAROV-PC 2012-11-12 14_29_19">
+      <DeploymentItem filename="C:\Work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common\bin\Release\PavelNazarov.Common.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-12T14:29:19.9240078+04:00" queuing="2012-11-12T14:29:20.2932142+04:00" start="2012-11-12T14:29:20.3244143+04:00" finish="2012-11-12T14:29:20.6052148+04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestGeneral" storage="c:\work\dev\dotnet\pavelnazarov.common\pavelnazarov.common.tests\bin\release\pavelnazarov.common.tests.dll" id="95e542ac-e7f0-b089-9e3a-23eb13b1bb84">
+      <Execution id="b194c556-4a5e-4f09-8eb4-f1920d5abee4" />
+      <TestMethod codeBase="C:/Work/Dev/DotNET/PavelNazarov.Common/PavelNazarov.Common.Tests/bin/Release/PavelNazarov.Common.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PavelNazarov.Common.Tests.IO.PersistentStorage.PersistentStorageTest, PavelNazarov.Common.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGeneral" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="95e542ac-e7f0-b089-9e3a-23eb13b1bb84" executionId="b194c556-4a5e-4f09-8eb4-f1920d5abee4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b194c556-4a5e-4f09-8eb4-f1920d5abee4" testId="95e542ac-e7f0-b089-9e3a-23eb13b1bb84" testName="TestGeneral" computerName="PAVELNAZAROV-PC" duration="00:00:00.0741652" startTime="2012-11-12T14:29:20.3400143+04:00" endTime="2012-11-12T14:29:20.5896148+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b194c556-4a5e-4f09-8eb4-f1920d5abee4">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -67,7 +67,7 @@ namespace PavelNazarov.Common.Configuration
                 }
                 return (ConfigurationSection)targetConfigSection;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return null;
             }
