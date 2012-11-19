@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="BytesUtil.cs" />
     <Compile Include="Collections\DisposableDictionary.cs" />
+    <Compile Include="Collections\ObservableCollectionWrapper.cs" />
     <Compile Include="Configuration\ExternalXmlFileConfigSectionLocator.cs" />
     <Compile Include="Configuration\ExternalXmlFileConfigSectionLocatorException.cs" />
     <Compile Include="Drawing\ImageUtil.cs" />
