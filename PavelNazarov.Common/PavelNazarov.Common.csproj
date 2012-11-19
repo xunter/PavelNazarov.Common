@@ -46,6 +46,7 @@
     <Compile Include="Configuration\ExternalXmlFileConfigSectionLocatorException.cs" />
     <Compile Include="Drawing\ImageUtil.cs" />
     <Compile Include="Drawing\ThumbnailImage.cs" />
+    <Compile Include="EventArgs.cs" />
     <Compile Include="IO\PersistentStorage\IPersistentStorage.cs" />
     <Compile Include="IO\PersistentStorage\PersistentStorageException.cs" />
     <Compile Include="IO\PersistentStorage\PersistentStorageManager.cs" />
