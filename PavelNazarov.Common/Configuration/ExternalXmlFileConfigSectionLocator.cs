@@ -122,6 +122,7 @@ namespace PavelNazarov.Common.Configuration
         /// <summary>
         /// Loads the target section from an external xml file based on the config.
         /// </summary>
+        /// <exception cref="System.InvalidOperationException"></exception>
         /// <returns>a configuration section instance or if anything goes wrong then the method will return null</returns>
         public ConfigurationSection LoadTargetSection()
         {
@@ -137,9 +138,9 @@ namespace PavelNazarov.Common.Configuration
                 }
                 return (ConfigurationSection)targetConfigSection;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return null;
+                throw new InvalidOperationException("Unable to load the target section!", ex);
             }
         }
 

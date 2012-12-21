@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Handlers\CssResourceVersionHandler.cs" />
     <Compile Include="MVC\ControllerExtensions.cs" />
     <Compile Include="MVC\DecimalModelBinder.cs" />
     <Compile Include="MVC\EnumModelBinder.cs" />
