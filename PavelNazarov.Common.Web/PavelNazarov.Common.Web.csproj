@@ -49,6 +49,8 @@
     <Compile Include="MVC\EnumModelBinder.cs" />
     <Compile Include="MVC\FakeRedirectResult.cs" />
     <Compile Include="MVC\FileDownloadResult.cs" />
+    <Compile Include="MVC\HtmlHelperJsonExtensions.cs" />
+    <Compile Include="MVC\HtmlIncludesExtensions.cs" />
     <Compile Include="MVC\HttpStatusCodeContextResult.cs" />
     <Compile Include="MVC\HttpStatusCodeResult.cs" />
     <Compile Include="MVC\HttpStatusCodeResultWithJSONDTO.cs" />
