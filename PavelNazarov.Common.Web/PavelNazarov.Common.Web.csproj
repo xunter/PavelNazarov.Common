@@ -29,6 +29,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\PavelNazarov.Common.Web.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +56,7 @@
     <Compile Include="MVC\HttpStatusCodeResult.cs" />
     <Compile Include="MVC\HttpStatusCodeResultWithJSONDTO.cs" />
     <Compile Include="MVC\JavaScriptRedirectResult.cs" />
+    <Compile Include="MVC\MockViewDataContainer.cs" />
     <Compile Include="MVC\RawHtmlString.cs" />
     <Compile Include="MVC\TextResult.cs" />
     <Compile Include="MVC\XmlNodeResult.cs" />
