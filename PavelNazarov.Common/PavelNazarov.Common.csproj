@@ -50,6 +50,7 @@
     <Compile Include="EventArgs.cs" />
     <Compile Include="IO\FileInfoExtensions.cs" />
     <Compile Include="IO\PersistentStorage\IPersistentStorage.cs" />
+    <Compile Include="IO\PersistentStorage\PersistentDataStorageWrapperBase.cs" />
     <Compile Include="IO\PersistentStorage\PersistentStorageException.cs" />
     <Compile Include="IO\PersistentStorage\PersistentStorageManager.cs" />
     <Compile Include="IO\PersistentStorage\XmlFileBasedPersistentStorage.cs" />

@@ -12,3 +12,5 @@ C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Web\bin\Release\Pavel
 C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Web\obj\Release\ResolveAssemblyReference.cache
 C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Web\obj\Release\PavelNazarov.Common.Web.dll
 C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Web\obj\Release\PavelNazarov.Common.Web.pdb
+C:\Work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Web\bin\Release\PavelNazarov.Common.Web.XML
+C:\Work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Web\bin\Release\PavelNazarov.Common.xml
