@@ -8,3 +8,4 @@ C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common\bin\Release\PavelNaza
 C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common\obj\Release\ResolveAssemblyReference.cache
 C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common\obj\Release\PavelNazarov.Common.dll
 C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common\obj\Release\PavelNazarov.Common.pdb
+C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common\bin\Release\PavelNazarov.Common.XML

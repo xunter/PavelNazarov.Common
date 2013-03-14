@@ -5,3 +5,4 @@ C:\Work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Tests\bin\Release\Pav
 C:\Work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Tests\bin\Release\PavelNazarov.Common.pdb
 C:\Work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Tests\obj\Release\PavelNazarov.Common.Tests.dll
 C:\Work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Tests\obj\Release\PavelNazarov.Common.Tests.pdb
+C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Tests\bin\Release\PavelNazarov.Common.xml

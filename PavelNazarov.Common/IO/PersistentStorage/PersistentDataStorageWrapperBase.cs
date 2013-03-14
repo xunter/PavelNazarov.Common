@@ -18,15 +18,12 @@ namespace PavelNazarov.Common.IO.PersistentStorage
         {
             get
             {
-                if (String.IsNullOrEmpty(FilePath))
+                CheckFilePath();
+                var lastModifiedDate = DateTime.MinValue;
+                if (File.Exists(FilePath))
                 {
-                    throw new NullReferenceException("You must specify file path!");
+                    lastModifiedDate = File.GetLastWriteTime(FilePath);
                 }
-                else if (!File.Exists(FilePath))
-                {
-                    throw new FileNotFoundException("File does not found!", FilePath);
-                }
-                var lastModifiedDate = File.GetLastWriteTime(FilePath);
                 lock (_locker)
                 {
                     bool fileHasChanged = IsPersistentStorageModified();
@@ -36,6 +33,18 @@ namespace PavelNazarov.Common.IO.PersistentStorage
                     }
                     return _storedData;
                 }
+            }
+        }
+
+        protected virtual void CheckFilePath()
+        {
+            if (String.IsNullOrEmpty(FilePath))
+            {
+                throw new NullReferenceException("You must specify file path!");
+            }
+            else if (!File.Exists(FilePath))
+            {
+                throw new FileNotFoundException("File does not found!", FilePath);
             }
         }
 

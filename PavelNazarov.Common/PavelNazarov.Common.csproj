@@ -61,6 +61,7 @@
     <Compile Include="Security\HashFactory.cs" />
     <Compile Include="Security\MembershipUtil.cs" />
     <Compile Include="ServiceModel\ServiceClientSafeDisposingWrapper.cs" />
+    <Compile Include="Xml\Linq\SelectElementsRecursiveExtension.cs" />
     <Compile Include="Xml\XmlDocumentExtensions.cs" />
     <Compile Include="Xml\XmlUtil.cs" />
   </ItemGroup>
