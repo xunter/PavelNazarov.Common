@@ -50,6 +50,7 @@
     <Compile Include="IO\FileInfoExtensionsTests.cs" />
     <Compile Include="IO\PersistentStorage\PersistentStorageTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\SecureStringExtensionsTests.cs" />
     <Compile Include="Xml\Linq\SelectElementsRecursiveExtensionTests.cs" />
     <Compile Include="Xml\TrimStringsXmlReaderDecoratorTests.cs" />
   </ItemGroup>

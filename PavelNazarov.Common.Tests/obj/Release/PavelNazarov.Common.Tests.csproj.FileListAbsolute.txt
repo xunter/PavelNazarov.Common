@@ -6,3 +6,11 @@ C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Tests\bin\Release\Pav
 C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Tests\obj\Release\PavelNazarov.Common.Tests.csprojResolveAssemblyReference.cache
 C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Tests\obj\Release\PavelNazarov.Common.Tests.dll
 C:\work\Dev\DotNET\PavelNazarov.Common\PavelNazarov.Common.Tests\obj\Release\PavelNazarov.Common.Tests.pdb
+C:\Users\xunter\Dev\dev_projects\dotnet\PavelNazarov.Common\PavelNazarov.Common.Tests\bin\Release\PavelNazarov.Common.Tests.dll
+C:\Users\xunter\Dev\dev_projects\dotnet\PavelNazarov.Common\PavelNazarov.Common.Tests\bin\Release\PavelNazarov.Common.Tests.pdb
+C:\Users\xunter\Dev\dev_projects\dotnet\PavelNazarov.Common\PavelNazarov.Common.Tests\bin\Release\PavelNazarov.Common.dll
+C:\Users\xunter\Dev\dev_projects\dotnet\PavelNazarov.Common\PavelNazarov.Common.Tests\bin\Release\PavelNazarov.Common.pdb
+C:\Users\xunter\Dev\dev_projects\dotnet\PavelNazarov.Common\PavelNazarov.Common.Tests\bin\Release\PavelNazarov.Common.xml
+C:\Users\xunter\Dev\dev_projects\dotnet\PavelNazarov.Common\PavelNazarov.Common.Tests\obj\Release\PavelNazarov.Common.Tests.csprojResolveAssemblyReference.cache
+C:\Users\xunter\Dev\dev_projects\dotnet\PavelNazarov.Common\PavelNazarov.Common.Tests\obj\Release\PavelNazarov.Common.Tests.dll
+C:\Users\xunter\Dev\dev_projects\dotnet\PavelNazarov.Common\PavelNazarov.Common.Tests\obj\Release\PavelNazarov.Common.Tests.pdb
