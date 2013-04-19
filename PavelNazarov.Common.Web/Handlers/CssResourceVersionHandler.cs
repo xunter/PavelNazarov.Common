@@ -63,7 +63,7 @@ namespace PavelNazarov.Common.Web.Handlers
                 response.StatusCode = (int)HttpStatusCode.NotModified;
             }
             else
-            {
+            {                
                 response.AddHeader("Pragma", "no-cache");
                 response.AddHeader("Cache-Control", "max-age=0, must-revalidate");
                 response.ContentType = CSS_CONTENT_TYPE;
