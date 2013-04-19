@@ -1,2 +1,0 @@
-C:\Users\xunter\AppData\Local\Temporary Projects\PavelNazarov.Common\obj\x86\Release\ResolveAssemblyReference.cache
-C:\Users\xunter\Dev\dev_projects\dotnet\PavelNazarov.Common\PavelNazarov.Common\obj\x86\Release\ResolveAssemblyReference.cache

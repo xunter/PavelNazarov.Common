@@ -21,6 +21,8 @@ namespace PavelNazarov.Common.Tests.IO
             fi.Touch();
             fi.Refresh();
             Assert.IsTrue(fi.Exists);
+            fi.LastWriteTime = DateTime.Now.Subtract(TimeSpan.FromDays(1));
+            fi.LastAccessTime = DateTime.Now.Subtract(TimeSpan.FromDays(1));
             var lmd = fi.LastWriteTime;
             fi.Touch();
             Assert.AreNotEqual(lmd, fi.LastWriteTime);
