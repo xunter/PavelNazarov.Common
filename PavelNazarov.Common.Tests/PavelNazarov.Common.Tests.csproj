@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Collections\DictionaryExtensionsTests.cs" />
     <Compile Include="EnumExtensionsTests.cs" />
+    <Compile Include="EnumUtilTests.cs" />
     <Compile Include="IO\FileInfoExtensionsTests.cs" />
     <Compile Include="IO\PersistentStorage\PersistentStorageTest.cs" />
     <Compile Include="Linq\ExtensionsTests.cs" />

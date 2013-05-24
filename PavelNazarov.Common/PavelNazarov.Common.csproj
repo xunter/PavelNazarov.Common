@@ -49,6 +49,7 @@
     <Compile Include="Drawing\ImageUtil.cs" />
     <Compile Include="Drawing\ThumbnailImage.cs" />
     <Compile Include="EnumExtensions.cs" />
+    <Compile Include="EnumUtil.cs" />
     <Compile Include="EventArgs.cs" />
     <Compile Include="IO\FileInfoExtensions.cs" />
     <Compile Include="IO\PersistentStorage\IPersistentStorage.cs" />
