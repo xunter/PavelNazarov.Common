@@ -59,13 +59,13 @@
     <Compile Include="Xml\TrimStringsXmlReaderDecoratorTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Xml\Linq\elements_recursive_2013-03-14.xml" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\PavelNazarov.Common\PavelNazarov.Common.csproj">
       <Project>{9079F6F8-F527-4C01-A158-8C0FEF1CE374}</Project>
       <Name>PavelNazarov.Common</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Xml\Linq\elements_recursive_2013-03-14.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

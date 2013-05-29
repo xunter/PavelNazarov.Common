@@ -90,23 +90,27 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Modules\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\PavelNazarov.Common\PavelNazarov.Common.csproj">
       <Project>{9079F6F8-F527-4C01-A158-8C0FEF1CE374}</Project>
       <Name>PavelNazarov.Common</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Modules\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
+  -->
   <Target Name="BeforeBuild">
   </Target>
   <Target Name="AfterBuild">
+    <Copy SourceFiles="$(OutputPath)\$(AssemblyName).dll" DestinationFolder="lib" />
+    <Copy SourceFiles="$(OutputPath)\$(AssemblyName).pdb" DestinationFolder="lib" />
   </Target>
-  -->
 </Project>

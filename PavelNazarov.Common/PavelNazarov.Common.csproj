@@ -104,9 +104,11 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
+  -->
   <Target Name="BeforeBuild">
   </Target>
   <Target Name="AfterBuild">
+	<Copy SourceFiles="$(OutputPath)\$(AssemblyName).dll" DestinationFolder="lib" />
+	<Copy SourceFiles="$(OutputPath)\$(AssemblyName).pdb" DestinationFolder="lib" />
   </Target>
-  -->
 </Project>
