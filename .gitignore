@@ -109,3 +109,7 @@ UpgradeLog*.XML
 
 .nuget/NuGet.exe
 *.nupkg
+
+*.csproj.user
+*/obj
+*/bin

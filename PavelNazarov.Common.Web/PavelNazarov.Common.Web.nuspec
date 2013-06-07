@@ -10,7 +10,6 @@
 	<projectUrl>http://github.com/xunter/PavelNazarov.Common/</projectUrl>
 	<dependencies>
 		<dependency id="PavelNazarov.Common" version="1.0.0.0" />
-		<dependency id="Microsoft.AspNet.Mvc" version="4.0.0.0" />
 	</dependencies>
   </metadata>
 </package>
