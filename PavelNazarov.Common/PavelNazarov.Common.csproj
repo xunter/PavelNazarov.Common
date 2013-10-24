@@ -42,13 +42,16 @@
   <ItemGroup>
     <Compile Include="BytesUtil.cs" />
     <Compile Include="Collections\CollectionExtensions.cs" />
+    <Compile Include="Collections\DictionaryExtensions.cs" />
     <Compile Include="Collections\DisposableDictionary.cs" />
     <Compile Include="Collections\ObservableCollectionWrapper.cs" />
     <Compile Include="Configuration\ExternalXmlFileConfigSectionLocator.cs" />
     <Compile Include="Configuration\ExternalXmlFileConfigSectionLocatorException.cs" />
+    <Compile Include="Data\DataReaderExtensions.cs" />
     <Compile Include="Drawing\ImageUtil.cs" />
     <Compile Include="Drawing\ThumbnailImage.cs" />
     <Compile Include="EnumExtensions.cs" />
+    <Compile Include="EnumUtil.cs" />
     <Compile Include="EventArgs.cs" />
     <Compile Include="IO\FileInfoExtensions.cs" />
     <Compile Include="IO\PersistentStorage\IPersistentStorage.cs" />
@@ -57,6 +60,7 @@
     <Compile Include="IO\PersistentStorage\PersistentStorageManager.cs" />
     <Compile Include="IO\PersistentStorage\XmlFileBasedPersistentStorage.cs" />
     <Compile Include="IO\StreamWrapperToManageDisposeOutside.cs" />
+    <Compile Include="Linq\Extensions.cs" />
     <Compile Include="Logging\ILoggerService.cs" />
     <Compile Include="Pair.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,6 +76,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.XML" />
@@ -99,12 +104,17 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="PavelNazarov.Common.nuspec" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
+  -->
   <Target Name="BeforeBuild">
   </Target>
   <Target Name="AfterBuild">
+    <Copy SourceFiles="$(OutputPath)\$(AssemblyName).dll" DestinationFolder="lib" />
+    <Copy SourceFiles="$(OutputPath)\$(AssemblyName).pdb" DestinationFolder="lib" />
   </Target>
-  -->
 </Project>
