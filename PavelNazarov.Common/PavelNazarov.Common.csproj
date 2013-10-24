@@ -41,6 +41,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BytesUtil.cs" />
+    <Compile Include="Collections\CollectionExtensions.cs" />
     <Compile Include="Collections\DisposableDictionary.cs" />
     <Compile Include="Collections\ObservableCollectionWrapper.cs" />
     <Compile Include="Configuration\ExternalXmlFileConfigSectionLocator.cs" />
