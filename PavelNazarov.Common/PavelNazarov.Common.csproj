@@ -113,7 +113,5 @@
   <Target Name="BeforeBuild">
   </Target>
   <Target Name="AfterBuild">
-    <Copy SourceFiles="$(OutputPath)\$(AssemblyName).dll" DestinationFolder="lib" />
-    <Copy SourceFiles="$(OutputPath)\$(AssemblyName).pdb" DestinationFolder="lib" />
   </Target>
 </Project>
