@@ -35,7 +35,14 @@ namespace PavelNazarov.Common.Web.MVC
                     }
                     catch (FormatException)
                     {
-                        return Convert.ToDecimal(attemptedValue, CultureInfo.InvariantCulture);
+                        try
+                        {
+                            return Convert.ToDecimal(attemptedValue, CultureInfo.InvariantCulture);
+                        }
+                        catch
+                        {
+                            return null;
+                        }
                     }
                 }
             }
