@@ -53,6 +53,7 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\CollectionExtensionsTests.cs" />
     <Compile Include="Collections\DictionaryExtensionsTests.cs" />
     <Compile Include="Data\DataReaderExtensionsTests.cs" />
     <Compile Include="EnumExtensionsTests.cs" />

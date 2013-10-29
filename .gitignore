@@ -1,6 +1,8 @@
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
 [Bb]in/
 [Oo]bj/
+[Bb]in/*.*
+[Oo]bj/*.*
 
 # mstest test results
 TestResults
@@ -113,3 +115,8 @@ UpgradeLog*.XML
 *.csproj.user
 */obj
 */bin
+PavelNazarov.Common.Tests/bin/
+PavelNazarov.Common.Tests/obj/
+
+PavelNazarov.Common.Tests/bin/*.*
+PavelNazarov.Common.Tests/obj/*.*
