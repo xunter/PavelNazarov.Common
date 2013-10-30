@@ -7,12 +7,19 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Xml.Linq;
 using System.Threading;
+using System.Text;
 
 namespace PavelNazarov.Common.IO.PersistentStorage
 {
     public class XmlFileBasedPersistentStorageSettings
     {
         public string FullFileName { get; set; }
+        public bool UseBOM { get; set; }
+
+        public XmlFileBasedPersistentStorageSettings()
+        {
+            UseBOM = false;
+        }
     }
 
     public class XmlFileBasedPersistentStorage : IPersistentStorage
@@ -112,7 +119,10 @@ namespace PavelNazarov.Common.IO.PersistentStorage
 
         protected virtual void WriteValue(string key, object objectToWrite)
         {
-            if (!IsStorageExists) CreateEmptyStorage();
+            if (!IsStorageExists)
+            {
+                CreateEmptyStorage();
+            }
 
             XDocument xdoc = null;
             try
@@ -160,14 +170,32 @@ namespace PavelNazarov.Common.IO.PersistentStorage
         protected virtual Stream GetOutputStreamForWrite()
         {
             string filename = _originalSettings.FullFileName;
-            return File.Create(filename);            
+            return CreateNewFileAndReturnStream(filename);            
         }
 
         protected virtual Stream GetInputStreamForRead()
         {
             string filename = _originalSettings.FullFileName;
-            if (File.Exists(filename)) return File.OpenRead(_originalSettings.FullFileName);
-            else return File.Create(filename);
+            if (File.Exists(filename))
+            {
+                return File.OpenRead(_originalSettings.FullFileName);
+            }
+            else
+            {
+                return CreateNewFileAndReturnStream(filename);
+            }
+        }
+
+        protected virtual FileStream CreateNewFileAndReturnStream(string filename)
+        {
+            var fs = File.Create(filename);
+            if (_originalSettings.UseBOM)
+            {
+                byte[] bom = System.Text.Encoding.UTF8.GetPreamble();
+                fs.Write(bom, 0, bom.Length);
+                fs.Flush();
+            }
+            return fs;
         }
 
         protected virtual void SerializeObjectToElement(XElement xel, object objectToSerialize)

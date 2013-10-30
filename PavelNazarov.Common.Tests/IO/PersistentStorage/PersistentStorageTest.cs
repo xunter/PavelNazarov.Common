@@ -158,5 +158,31 @@ namespace PavelNazarov.Common.Tests.IO.PersistentStorage
 
             Assert.AreEqual(newChequeNum, storage.Get("chequeNum"));
         }
+
+        [TestMethod]
+        public void Test_PersistentStorage_ShouldWorkProperlyWithRealFileWithBOM()
+        {
+            string tempDirPath = Path.GetTempPath();
+            string filename = String.Format(@"ps_{0:yyyy-MM-ddTHH-mm-ss}.xml", DateTime.Now);
+            filename = Path.Combine(tempDirPath, filename);
+            var storage = new XmlFileBasedPersistentStorage(new XmlFileBasedPersistentStorageSettings { FullFileName = filename, UseBOM = true });
+            decimal num = 234.234M;
+            storage.Set("key1", num);
+            decimal numRead = (decimal)storage.Get("key1");
+            Assert.AreEqual(num, numRead);
+        }
+
+        [TestMethod]
+        public void Test_PersistentStorage_ShouldWorkProperlyWithRealFile()
+        {
+            string tempDirPath = Path.GetTempPath();
+            string filename = String.Format(@"ps_{0:yyyy-MM-ddTHH-mm-ss}.xml", DateTime.Now);
+            filename = Path.Combine(tempDirPath, filename);
+            var storage = new XmlFileBasedPersistentStorage(new XmlFileBasedPersistentStorageSettings { FullFileName = filename, UseBOM = true });
+            decimal num = 234.234M;
+            storage.Set("key1", num);
+            decimal numRead = (decimal)storage.Get("key1");
+            Assert.AreEqual(num, numRead);
+        }
     }
 }
