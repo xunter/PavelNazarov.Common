@@ -68,6 +68,7 @@
     <Compile Include="Security\MembershipUtil.cs" />
     <Compile Include="Security\SecureStringExtensions.cs" />
     <Compile Include="ServiceModel\ServiceClientSafeDisposingWrapper.cs" />
+    <Compile Include="StringUtil.cs" />
     <Compile Include="Xml\Linq\SelectElementsRecursiveExtension.cs" />
     <Compile Include="Xml\TrimStringsXmlReaderDecorator.cs" />
     <Compile Include="Xml\XmlDocumentExtensions.cs" />
